@@ -18,7 +18,7 @@ export default class Matrix extends Component {
       </div>
     )
   }
-  
+
   defaultProps = {
     values: (() => {
       const defineRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
