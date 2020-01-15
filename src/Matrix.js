@@ -20,9 +20,9 @@ export default class Matrix extends Component {
   }
 }
 
-defaultProps = {
+Matrix.defaultProps = {
     values: (() => {
       const defineRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
       return (new Array(10).fill(defineRow))
     })()
-  }
+}
