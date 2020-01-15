@@ -18,4 +18,3 @@ export default class Matrix extends Component {
       </div>
     )
   }
-
