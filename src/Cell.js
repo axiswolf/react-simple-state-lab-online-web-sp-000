@@ -13,12 +13,12 @@ export default class Cell extends React.Component {
           color: '#333'
       })
   }
-  
+
   render(){
       return (
-          <div 
-          className="cell" 
-          onClick={this.updateColor} 
+          <div
+          className="cell"
+          onClick={this.updateColor}
           style={{backgroundColor: this.state.color}}>
           </div>
       )
