@@ -1,5 +1,5 @@
 // import React from 'react';
-//
+// 
 // export default class Cell extends React.Component {
 //   constructor(props) {
 //       super()
@@ -7,7 +7,7 @@
 //           color: props.value
 //       }
 //   }
-//
+// 
 //   updateColor = () =>{
 //       this.setState({
 //           color: '#333'
@@ -19,8 +19,8 @@
 //           </div>
 //       )
 //   }
-//
-//
+// 
+// 
 // }
 import React, { Component } from 'react';
 
@@ -28,9 +28,15 @@ export default class Cell extends Component {
 
     constructor(props) {
         super()
-        this.state = {color: '#F00'}
+        this.state = {color: '#F00'} 
       }
-
+      handleClick=()=>{
+        this.setState(
+          {
+            color:`#333`
+          } 
+        )
+      }
     render(){
         return(
             <div className="cell" style={{backgroundColor: '#F00'}}></div>
